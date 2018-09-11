@@ -1,23 +1,38 @@
 html, body{
 	font-family: Arial, san-serif;
 	margin: 0;
+	background-color: tan;
 }
 
 header{
-	background-color: #001b47;
+	background-color: #01296b;
+	background-image: url('../img/paw-print-sm.png');
+	background-repeat: repeat;
 	padding: 40px;
 	text-align: center;
 }
+
 h1{
 	font-size: 90px;
 	color: white;
-}
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
+}	
 
 header img{
 		border-radius: 125px;
 		width: 600px;
 		border: 10px solid #93000e;
+		box-shadow: 0 10px 20px black;
+		max-width: 100%
 }
+
+h2{
+	font-size: 20px;
+	text-transform: uppercase; 
+}
+
 .content{
 	max-width: 600px;
 	margin: 0 auto;
@@ -27,9 +42,10 @@ header img{
 img.big-image{
 	max-width: 100%
 }
+
 p.caption{
 	font-size: 16px;
-	color: lightgrey;
+	color: #01296b;
 	font-style: italic;
 }
 
@@ -40,14 +56,14 @@ ul{
 }
 
 a{
-	color: red;
+	color: #8e01010;
 	text-decoration: none;
 }
 
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #E6E6E6;
+	background-color: #bababa;
 }
 footer ul{
 	text-align: center;
